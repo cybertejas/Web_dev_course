@@ -1,0 +1,19 @@
+so you need to create a form, the form is to place an order,
+
+so the first column will be select option with a bunch of stuff, there will be 5 option
+
+a radio button will have three options , 1st is normal pack, 2nd is gift pack, 3rd is premium pack
+
+one more radio button, how will you pay, gpay, c.o.d, amazon pay
+
+pick any 3 days for delivery ->  check box
+
+one more input button it will be a range, how many items you should buy
+
+pick date , (d.o.d)
+
+check box -> accept terms and conditions for future access
+
+and a place order button
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
