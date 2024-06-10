@@ -4,11 +4,11 @@ Title
 ## Assignment - 5
 ## Task - Resume HTML with List and Tables
 ## Sections
-  Name
-  ```
-  Image
-  ```
-  [Link1](https://github.com) [Link2](https://github.com) [Link3](https://github.com) [Link4](https://github.com)
+  - Name
+  
+  - Image
+  
+  - [Link1](https://github.com) [Link2](https://github.com) [Link3](https://github.com) [Link4](https://github.com)
   ```
   Education :
   Three sections - 3 
