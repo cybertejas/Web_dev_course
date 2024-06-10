@@ -5,8 +5,11 @@ Title
 ## Task - Resume HTML with List and Tables
 ## Sections
   Name
-  Image 
+  ```
+  Image
+  ```
   [Link1](https://github.com) [Link2](https://github.com) [Link3](https://github.com) [Link4](https://github.com)
+  ```
   Education :
   Three sections - 3 
   Heading - [Education](https://github.com)  -- > University Website Link
