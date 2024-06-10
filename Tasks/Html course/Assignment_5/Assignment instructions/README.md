@@ -9,12 +9,12 @@ Title
   - Image
   
   - [Link1](https://github.com) [Link2](https://github.com) [Link3](https://github.com) [Link4](https://github.com)
-  ```
-  Education :
-  Three sections - 3 
-  Heading - [Education](https://github.com)  -- > University Website Link
-  Table - 
-  Year      College Name        City     %     
+
+  - Education :
+  - Three sections - 3 
+  - Heading - [Education](https://github.com)  -- > University Website Link
+  - Table - 
+    Year      College Name        City     %     
 
   Technical Skills :
   Table - 3 rows 
