@@ -23,7 +23,7 @@ Title
   - Hobbies and Interests :
   - List - 5 (Unoredred List)
 
--References: 
+- References: 
   - Table -2 
   - Name     Email        Company      Relation     Website        Year 
 
