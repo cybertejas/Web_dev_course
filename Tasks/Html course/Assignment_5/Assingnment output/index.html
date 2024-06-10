@@ -1,0 +1,85 @@
+<!-- 
+ 
+so you need to create a form, the form is to place an order,
+
+so the first column will be select option with a bunch of stuff, there will be 5 option
+
+a radio button will have three options , 1st is normal pack, 2nd is gift pack, 3rd is premium pack
+
+one more radio button, how will you pay, gpay, c.o.d, amazon pay
+
+pick any 3 days for delivery ->  check box
+
+one more input button it will be a range, how many items you should buy
+
+pick date , (d.o.d)
+
+check box -> accept terms and conditions for future access
+
+and a place order button 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocezon.com</title>
+</head>
+<body>
+    <form>
+        <center>
+        <h1>Order summary</h1>
+        <label><b>food type</b></label>
+        <select name="" id="">
+            <option value="">Choose any one</option>
+            <option value="">Apple</option>
+            <option value="">Bannana</option>
+            <option value="">Guava</option>
+            <option value="">Milk</option>
+            <option value="">Dragon fruit</option>
+        </select>
+        <br><br>
+        <h1>Type of Packaging</h1>
+        <input type="radio" name="pack" id="">
+        <label for="">Normal Packaging</label>
+        <input type="radio" name="pack" id="">
+        <label for="">Gift Packaging</label>
+        <input type="radio" name="pack" id="">
+        <label for="">Premium Packaging</label>
+        <br><br>
+        <h2>Type of payment</h2>
+        <input type="radio" name="pay" id="">
+        <label for="">Google Pay</label>
+<br>
+        <input type="radio" name="pay" id="">
+        <label for="">Cash On Delivery</label>
+<br>
+        <input type="radio" name="pay" id="">
+        <label for="">Amamzon Pay</label>
+        <br><br>
+        <h2>Day of delivery</h2>
+        <input type="checkbox" name="days" value="day 1">
+        <label for="">Sunday</label>
+<br>
+        <input type="checkbox" name="days" value="day 2">
+        <label for="">Monday</label>
+<br>
+        <input type="checkbox" name="days" value="day 3">
+        <label for="">Tuesday</label>
+        <br><br>
+        <h2>How much you want?</h2>
+        <label for="">I want: </label>
+        <input type="number">
+        <br><br>
+        <h2>Pick product arrival date</h2>
+        <input type="date" name="date" id="">
+        <br><br>
+        <input type="checkbox" name="" id="">
+        <label for="">I agree the terms and conditions for future access.</label>
+        <br><br><br>
+        <input type="button" value="Place Order">
+    </form>
+</body>
+</html>
