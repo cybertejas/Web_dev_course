@@ -1,0 +1,39 @@
+/* Color Name */
+
+/* p{
+    color:Red;
+} */
+
+/* A-F a-f 0-6 */
+p{
+    
+    color:#516efc;
+    /* 0-255 0-255 0-255 */
+    color:rgb(206, 22, 16);
+    /* color:rgb(0,0,0);
+    color:rgb(255,255,255); */
+
+    color:rgba(206,22,16,1);
+    background-color: #516efc;
+}
+
+h1{
+    color:#b47b0a;
+    color:rgba(206,22,16,0.1);
+}
+
+h4{
+
+    color:hsl(300, 88%, 36%);
+    background-color: #b47b0a;
+    /* color:hsla(300, 88%, 36%,0.3); */
+}
+span{
+    color:chartreuse;
+    background-color: crimson;
+}
+
+/* 
+div{
+    color:blue;
+} */
