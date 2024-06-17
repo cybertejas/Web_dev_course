@@ -1,0 +1,17 @@
+.left{
+    border: solid red 1px;
+    width: 33%;
+    float: left;
+}
+
+.right{
+    border: solid rgb(34, 0, 255) 1px;
+    width: 33%;
+    float:right;
+}
+.one_more
+{
+    float: right;
+    width: 32%;
+    border: solid rgb(77, 255, 0) 1px;
+}

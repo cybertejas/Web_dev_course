@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: blueviolet;
+    height:50px;
+    width:100%;
+}
+.logo{
+    float:left;
+    color:white;
+    font-size: larger;
+    
+}
+.links{
+    float:right;
+    
+}
+.links a {
+    color:white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.left{
+    float:left;
+    width:50%;
+    height:530px;
+    background-color: burlywood;
+
+}
+
+.right{
+    float:right;
+    width:50%;
+    height:530px;
+}
+.course1{
+    float:left;
+    background-color:grey;
+    color:red;
+}
+.course2{
+    float:left;
+    background-color:red;
+    color:grey;
+}
+.course3{
+    float:right;
+    background-color:grey;
+    color:red;
+}
+.course1, .course2 , .course3{
+    height:100px;
+    width:33%;
+    font-family: cursive;
+
+}
