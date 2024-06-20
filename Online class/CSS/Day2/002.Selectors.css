@@ -1,0 +1,31 @@
+h4{
+    color:red;
+    font-size: 30px;
+}
+
+.h4-heading{
+    color:chartreuse;
+}
+
+#id-h4{
+    color:coral;
+}
+
+p{
+    /* color:darkgoldenrod; */
+    /* font-size: 40px; */
+    background-color: cornflowerblue;
+}
+
+.odd{
+    color:darkred;
+    font-size: 45px;
+    background-color: blue;
+    color:coral;
+    color:darkred;
+}
+
+.even{
+    color:gold;
+    font-size: 30px;
+}
