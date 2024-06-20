@@ -1,0 +1,27 @@
+.first, .second,.third{
+    width:30%;
+    float: left;
+    text-align: center;
+    margin:12px;
+    height:180px;
+    
+}
+
+.first, .third{
+    background-color: aqua;
+
+}
+.second{
+    background-color: brown;
+}
+.first h1, .third h1{
+    color:brown;
+    font-weight: 800;
+
+}
+.first button , .third button {
+    padding:8px 12px;
+    background-color: black;
+    color:white;
+    margin:10px;
+}
