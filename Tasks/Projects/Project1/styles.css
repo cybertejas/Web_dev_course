@@ -29,35 +29,38 @@ ul li{
 .main_section{
     /* background-color: rgb(50, 94, 79); */
     margin-bottom:15px;
-    height:300px;
+    height:350px;
 }
-.clear::after {
+/* .clear::after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 .main_left{
     float:left;
-    height:380px;
+    height:350px;
     width:37%;
     /* overflow-y: hidden; */
 }
 .main_left img{
     width:100%;
-    height:83%;
+    height:100%;
 }
 .main_right{
     float:right;
     /* background-color: aqua; */
-    width:60%;
+    width:50%;
+    text-align: left;
     /* height:400px; */
     margin-right:40px;
+    padding:30px;
 }
 .main_right h2{
     color:darkblue;
     font-style: italic;
     font-size: 70px;
-    margin-left: 40px;
+    padding-left:30px;
+    /* margin-left: 40px; */
 }
 .main_right p{ 
     color:rgb(9, 27, 5);
@@ -101,36 +104,108 @@ ul li{
     background-color:black;
 }
 
-.service_section{
-    background-color: rgb(230, 134, 65);
-    height:300px;
-}
-
-
-.first, .second,.third{
-    width:30%;
-    float: left;
-    text-align: center;
-    margin:12px;
-    height:180px;
+/* Cards */
+.section_heading{
     
 }
-/* 
+.cards{
+    /* height:230px; */
+
+    width:32%;
+    /* background-color: blue; */
+    /* float:left; */
+    text-align: center;
+    margin:20px 10px;
+    color:aliceblue;
+    padding:20px;
+}
 .first, .third{
-    background-color: aqua;
+    background-color: rgb(106, 226, 75);
 
 }
-.second{
-    background-color: brown;
-}
-.first h1, .third h1{
-    color:brown;
-    font-weight: 800;
+.first{
+    float:left;
+    margin-top:35px;
 
 }
-.first button , .third button {
-    padding:8px 12px;
-    background-color: black;
+.first h1{
+    color:darkred;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom:8px;
+
+}
+.first p{
+    color: black;
+    font-size: 18px;
+
+}
+.second {
+    float:left;
+    background-color: darkred;
+
+}
+.second h1{
     color:white;
-    margin:10px;
-} */
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom:8px;
+}
+.second p{
+    color: rgb(238, 234, 234);
+    font-size: 18px; 
+}
+.third{
+    
+    float:right;
+
+
+}
+.third h1{
+    color:darkred;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom:8px;
+}
+.third p{
+    color: black;
+    font-size: 18px; 
+}
+
+.service_section{
+    /* background-color: rgb(0, 0, 0); */
+    height:auto;
+}
+
+/* Left */
+
+.left{
+    float:left;
+    height:400px;
+    width:50%;
+
+}
+.left img{
+    width:80%;
+    height:400px;
+}
+.right{
+    float:left;
+    height:400px;
+    width:50%;
+}
+.form{
+    width:auto;
+    padding:40px;
+}
+.input{
+    width:100%;
+    padding: 5px;
+    margin-bottom:10px;
+    color:red;
+}
+label{
+    color:red;
+    font-weight: bold;
+}
+
