@@ -1,0 +1,31 @@
+.step_1 ,.step_2,.step_3,.step_4 ,.step_5 ,.step_6{
+    background-color: cyan;
+    height:50px;
+    width:120px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    border: black solid 5px;
+    margin-top: 10px;
+}
+
+.step_2{
+    margin-left: 130px;
+}
+
+.step_3{
+    margin-left: 260px;
+}
+
+.step_4{
+    margin-left: 390px;
+}
+
+.step_5{
+    margin-left: 520px;
+}
+
+.step_6{
+    margin-left: 650px;
+}
