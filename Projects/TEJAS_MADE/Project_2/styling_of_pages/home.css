@@ -70,10 +70,7 @@ p{
     float:left;
     width: 50%;
 }
-.image img{
-    width:100%;
-    height:100%;
-}
+
 
 .about{
     background-color: goldenrod;
@@ -81,23 +78,25 @@ p{
 }
 
 .para {
-    float:left;
-    width: 50%;
     text-align: center;
     align-items: center;
     justify-content: center;
     align-self: center;
     align-content: center;
+    height: auto;
 
 }
 .para p{
     margin-top: 17%;
     font-size: smaller;
 }
-.card{
-    width:100%;
-    background-color: lime;
-    margin:20px;
+.card_1, .card_2,.card_3{
+    width:30%;
+    float: right;
+    text-align: center;
+    margin:23px;
+    height:180px;
+    
 }
 .card_1{
     background-color: green;
