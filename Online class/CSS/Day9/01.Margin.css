@@ -1,0 +1,32 @@
+.margin{
+    background-color: aqua;
+    height: 500px;
+    width:600px;
+    padding:30px;
+}
+
+.first-child{
+    background-color: brown;
+    color:white;
+}
+
+.second-child{
+    background-color: rgb(9, 3, 45);
+    color:white;
+    padding:30px;
+    /* margin:40px; */
+    margin-left:30px;
+    margin-right:50px;
+}
+h1{
+    background-color: chartreuse;
+    padding:40px;
+    /* Equal margin on all sides */
+    margin:20px; 
+    /* margin: top right bottom left */
+    margin:20px 30px 40px 50px;  
+    /* Top-bottom left-right */
+    margin:20px 30px;
+    width:20%;
+    margin:auto;
+}

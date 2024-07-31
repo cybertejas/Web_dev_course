@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inherit CSS</title>
+</head>
+<body>
+<style>
+    div {
+        border: 2px solid rgb(55, 255, 0);
+        margin-left: 100px;
+        font-style: oblique;
+    }
+
+    p.inherit-css{
+        /* margin-left: inherit; */
+        font-style:normal;
+
+    }
+    h1{
+        border:inherit;
+    }
+</style>
+</head>
+<body>
+
+
+<p>Without inheritance</p>
+
+<div>
+    <p class="inherit-css">Inherited (from the div element).</p>
+    <h1>Hello</h1>
+</div>
+
+</body>
+</html>
+
+
