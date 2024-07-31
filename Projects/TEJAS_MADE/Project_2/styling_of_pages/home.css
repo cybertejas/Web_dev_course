@@ -67,6 +67,7 @@ p{
     background-color: green;
 }
 .image{
+    margin: auto;
     float:left;
     width: 50%;
 }
@@ -74,7 +75,7 @@ p{
 
 .about{
     background-color: goldenrod;
-    margin-bottom: 10px;
+    margin:auto;
 }
 
 .para {
@@ -85,25 +86,55 @@ p{
     align-content: center;
     height: auto;
 
+    margin:auto;
 }
 .para p{
     margin-top: 17%;
+    margin-bottom: 17%;
     font-size: smaller;
+    font-size: larger;
 }
-.card_1, .card_2,.card_3{
+.card_1, .card_2,.card_3 {
     width:30%;
     float: right;
     text-align: center;
+    align-items: center;
+    align-content: center;
     margin:23px;
     height:180px;
-    
 }
+
+.card_1 p{
+    color: greenyellow;
+    font-size:xx-large;
+}
+.card_3 p{
+    color: greenyellow;
+}
+
+
 .card_1{
     background-color: green;
 }
 .card_2{
     background-color: greenyellow;
+    font-size:xx-large;
 }
 .card_3{
     background-color: green;
+    font-size:xx-large;
 }
+
+.card_1:hover{
+    background-color: lightskyblue;
+}
+.card_2:hover{
+    background-color: greenyellow;
+    background-color: darkblue;
+}
+.card_3:hover{
+    background-color: greenyellow;
+    background-color: lightskyblue;
+}
+
+.
