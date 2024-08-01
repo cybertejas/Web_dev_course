@@ -94,14 +94,18 @@ p{
     font-size: smaller;
     font-size: larger;
 }
+.card{
+    background-color: #FFB200;
+}
 .card_1, .card_2,.card_3 {
+    border-radius: 4dvi;
     width:30%;
     float: right;
     text-align: center;
     align-items: center;
     align-content: center;
     margin:23px;
-    height:180px;
+    height: 20dvi;
 }
 
 .card_1 p{
@@ -126,15 +130,58 @@ p{
 }
 
 .card_1:hover{
-    background-color: lightskyblue;
+    background-color: #E4003A;
 }
 .card_2:hover{
-    background-color: greenyellow;
-    background-color: darkblue;
+    background-color: #EB5B00;
 }
 .card_3:hover{
-    background-color: greenyellow;
-    background-color: lightskyblue;
+    background-color: #E4003A;
 }
 
-.
+.join{
+    outline:none;
+    border-radius:5px;
+    padding:10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top:20px;
+    border:3px solid red;
+    background-color: rgb(255, 0, 0);
+    color:white;
+}
+.recipt{
+    outline:none;
+    border-radius:5px;
+    padding:10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top:20px;
+    margin-left:40px;
+    border:3px solid rgb(0, 0, 0);
+    background-color: rgb(254, 254, 254);
+    color:rgb(255, 0, 0);
+}
+.join:hover{
+    outline:none;
+    border-radius:5px;
+    padding:10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top:20px;
+    border:3px solid rgb(0, 0, 0);
+    background-color: rgb(254, 254, 254);
+    color:rgb(255, 0, 0);
+}
+.recipt:hover{
+    outline:none;
+    border-radius:5px;
+    padding:10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top:20px;
+    margin-left:40px;
+    border:3px solid red;
+    background-color: rgb(255, 0, 0);
+    color:white;
+}
