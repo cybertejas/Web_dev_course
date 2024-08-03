@@ -4,15 +4,25 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sankofa+Display&display=swap');
+
 
 .Navbar a{
     text-decoration: none;
     color: white;
-    margin-left: 15px;
+    margin-left: 80px;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+
 }
 
 .image_bg{
     background-image:url("/Projects/TEJAS_MADE/Project_2/Images/Tree_BG.jpg");
+    height: 80vh;
+    align-items: center;
+    align-content: center;
 }
 
 .Navbar{
@@ -21,7 +31,7 @@
     align-content: center;
     text-align: center;
     align-self: center;
-    position: sticky;
+    height: 100px;
 }
 
 h1{
@@ -30,53 +40,82 @@ h1{
     font-size: large;
 }
 
+.h1_content{
+    font-size: xxx-large;
+    margin-bottom: 50px;
+}
+.p_content{
+    color: aliceblue;
+    font-size: large;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+
 p{
     text-align: center;
     color: green;
-    font-size: smaller;
+    font-size: larger;
 }
+
+
+.btn_1, .btn_2{
+    width: 20vh;
+    height: 4vh;
+    font-size: x-large;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px;
+}
+
 
 .btn_1{
     border-radius: 3px;
     border-style: none;
     text-align: center;
-    color: green;
-    background-color: lightgreen;
-    margin: 12px;
+    color: white;
+    background-color: green;
+    margin-right: 5vh;
 }
 .btn_2{
     border-radius: 3px;
     border-style: none;
     text-align: center;
     color: green;
-    background-color: lightgreen;
+    background-color: white;
 }
 .btn_1:hover{
     border-radius: 3px;
     border-style: none;
     text-align: center;
-    color: limegreen;
-    background-color: green;
-    margin: 12px;
+    color: green;
+    background-color: white;
 }
+
+.about{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
 .btn_2:hover{
     border-radius: 3px;
     border-style: none;
     text-align: center;
-    color: limegreen;
+    color: white;
     background-color: green;
 }
 .image{
     margin: auto;
     float:left;
-    width: 50%;
+    width: 500px;
+    height: 400px;
 }
 
 
-.about{
-    background-color: goldenrod;
-    margin:auto;
-}
 
 .para {
     text-align: center;
@@ -85,7 +124,6 @@ p{
     align-self: center;
     align-content: center;
     height: auto;
-
     margin:auto;
 }
 .para p{
@@ -95,25 +133,43 @@ p{
     font-size: larger;
 }
 .card{
-    background-color: #FFB200;
+    background-color: green;
 }
 .card_1, .card_2,.card_3 {
-    border-radius: 4dvi;
+    border-radius: 1dvi;
     width:30%;
     float: right;
     text-align: center;
     align-items: center;
-    align-content: center;
+
     margin:23px;
-    height: 20dvi;
+    height: 500px;
+}
+
+p{
+    padding-top: 50px;
+    font-size: xxx-large;
+
+}
+
+h1{
+    padding-top: 50px;
+    font-size: large;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    margin-bottom:50px;
 }
 
 .card_1 p{
-    color: greenyellow;
+    color: white;
     font-size:xx-large;
 }
 .card_3 p{
-    color: greenyellow;
+    color: white;
+}
+.card_2 h1 ,p{
+    color:white;
 }
 
 
@@ -121,22 +177,12 @@ p{
     background-color: green;
 }
 .card_2{
-    background-color: greenyellow;
+    background-color: black;
     font-size:xx-large;
 }
 .card_3{
     background-color: green;
     font-size:xx-large;
-}
-
-.card_1:hover{
-    background-color: #E4003A;
-}
-.card_2:hover{
-    background-color: #EB5B00;
-}
-.card_3:hover{
-    background-color: #E4003A;
 }
 
 .join{
@@ -146,9 +192,9 @@ p{
     font-size: 20px;
     text-transform: uppercase;
     margin-top:20px;
-    border:3px solid red;
-    background-color: rgb(255, 0, 0);
-    color:white;
+    border: none;
+    background-color: white;
+    color:green;
 }
 .recipt{
     outline:none;
@@ -158,9 +204,9 @@ p{
     text-transform: uppercase;
     margin-top:20px;
     margin-left:40px;
-    border:3px solid rgb(0, 0, 0);
-    background-color: rgb(254, 254, 254);
-    color:rgb(255, 0, 0);
+    border: none;
+    background-color: white;
+    color:green;
 }
 .join:hover{
     outline:none;
@@ -169,9 +215,9 @@ p{
     font-size: 20px;
     text-transform: uppercase;
     margin-top:20px;
-    border:3px solid rgb(0, 0, 0);
-    background-color: rgb(254, 254, 254);
-    color:rgb(255, 0, 0);
+    border: none;
+    background-color: lightgreen;
+    color:black;
 }
 .recipt:hover{
     outline:none;
@@ -181,7 +227,62 @@ p{
     text-transform: uppercase;
     margin-top:20px;
     margin-left:40px;
-    border:3px solid red;
-    background-color: rgb(255, 0, 0);
-    color:white;
+    border: ;
+    background-color: lightgreen;
+    color:black;
+}
+
+.contact{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #ae6358;
+}
+.form{
+    background-color: white;
+    float:right;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height: 500px;
+    margin-right: 9dvi;
+}
+.form legend{
+    font-size: xxx-large;
+    margin-bottom: 30px;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 500p;
+}
+.form label{
+    margin-bottom: 20px;
+    font-size: large;
+    color: green;
+    font-family: "Cedarville Cursive", cursive;
+    font-style: normal;
+}
+.form input{
+    margin-bottom: 15px;
+}
+.form fieldset{
+    border: none;
+}
+.form textarea{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+.img {
+    float: left;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    margin-left: 5dvi;
+    width: 500px;
+    height: auto;
 }
