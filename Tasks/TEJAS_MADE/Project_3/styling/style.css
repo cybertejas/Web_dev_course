@@ -1,0 +1,150 @@
+body{
+    background-color: #FFAF00;
+}
+
+.nav_bar{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 10%;
+    background-color: #7C00FE;
+    border-radius: 10px;
+    width: 100%;
+    position:sticky ;
+}
+
+.nav_bar a{
+    color: #F9E400;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 50px;
+
+}
+
+
+.image_placeholder img{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.card_1, .card_2,.card_3,.card_4{
+    border-radius: 1dvi;
+    width:20%;
+    float: left;
+    text-align: center;
+    align-items: center;
+    margin-left:4%;
+    height: 20%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #7C00FE;
+}
+
+.card_1 img{
+    border-radius: 1dvi;
+    width:80%;
+    text-align: center;
+    align-items: center;
+    margin:23px;
+    margin-left: 10%;
+    height: 200px;
+
+}
+
+
+.card_2 img{
+    border-radius: 1dvi;
+    width:80%;
+    text-align: center;
+    align-items: center;
+    margin:23px;
+    height: 200px;
+    margin-left: 10%;
+}
+
+
+.card_3 img{
+    border-radius: 1dvi;
+    width:80%;
+    text-align: center;
+    align-items: center;
+    margin:23px;
+    height: 200px;
+    margin-left: 10%;
+}
+
+
+.card_4 img{
+    border-radius: 1dvi;
+    width:80%;
+    text-align: center;
+    align-items: center;
+    margin:23px;
+    height: 200px;
+    margin-left: 10%;
+
+
+}
+
+.card_1, .card_2,.card_3,.card_4 ,p, p ,p ,p{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    color: #F9E400
+}
+
+
+
+.intro{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+
+}
+
+.intro img{
+    margin: 6%;
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+}
+
+.intro p{
+    float: left;
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    font-weight: 9000px;
+    margin-top: 6.5%;
+}
