@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation_bar{
+    background-color: #2F2F2F;
+}
+
+.navigation_bar img{
+    width: 120px;
+    margin-left: 50px;
+}
+
+.att{
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.att a{
+    text-decoration: none;
+    color: #F8F7F7;
+    margin-left: 20px;
+    font-weight: 800px;
+    font-size: 17px;
+}
+
+.att a:hover{
+    color: orange;
+}
+
+.info{
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 400px;
+}
+
+.intro{
+    float: left;
+    width: 50%;
+}
+
+.intro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #08110D;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.nani{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F58C40;
+    border-style: none;
+    font-size: larger;
+    color: #F8F7F7;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 11.6%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.image_info{
+    padding-top: 100px;
+    width: 500px;
+    float: right;
+    margin-right: 4%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_1, .card_2,.card_3{
+    margin-top: 100px;
+    width:20%;
+    float: left;
+    margin-left:10%;
+    height: 20%;
+}
+
+.cards h1{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.bg{
+    margin-top: 30px;
+    background-color: #2F2F2F;
+    width: 100%;
+    height: 250px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards p{
+    color:#828282;
+}
+
+.percent{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F58C40;
+    border-style: none;
+    font-size: larger;
+    color: #F8F7F7;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.end{
+    background-color: #2F2F2F;
+}
