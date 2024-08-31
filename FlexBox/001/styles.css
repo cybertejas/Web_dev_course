@@ -1,0 +1,29 @@
+/* div{
+    height:20px;
+    background-color: aqua;
+    margin:20px;
+    padding:20px;
+} */
+ .parent{
+    display:flex;
+    background-color: black;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* justify-content: end; */
+    /* flex-direction:column; */
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    /* flex-direction: row-reverse; */
+    /* Always use flexbox property to the child */
+ }
+.child{
+    height:20px;
+    background-color: aqua;
+    margin:10px;
+    padding:20px;
+    width:50px;
+    /* width:50%; */
+    display:flex;
+}

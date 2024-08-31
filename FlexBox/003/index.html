@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+</head>
+<body>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+
+        .links{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            background-color: aqua;
+        }
+        li{
+            list-style-type:none;
+            /* margin:3px; */
+            padding:20px;
+            background-color: aqua;
+
+        }
+        li:hover{
+            background-color: rgb(24, 24, 24);
+            color:azure;
+        }
+        .main_section{
+            display: flex;
+            height:90vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main_content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1{
+            font-size: 80px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 1.2;
+            line-height: 1.2;
+
+        }
+        button{
+            width:200px;
+            margin-top:20px;
+            align-self: center;
+            padding:20px 30px;
+            background-color: black;
+            color:white;
+            border-radius: 5%;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2;
+
+        }
+        button:hover{
+            background-color: aqua;
+            border:2px solid black;
+            outline:none;
+            color:black;
+        }
+    </style>
+        <ul class="links">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+        <div class="main_section">
+            <div class="main_content">
+                <h1>Web Development Course</h1>
+                <button>Join Now</button>
+            </div>
+
+        </div>
+</body>
+</html>
